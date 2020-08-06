@@ -4,6 +4,11 @@
 int main(){
   int i, heads = 0, tails = 0;
   
+  char str[8];
+  printf("Who are you?\n");
+  scanf("%s",str);
+  printf("Hello, %s\n",str);
+  
   printf("Tossing a coin...");  
   for(i = 0; i < 3; i++){
     if(rand() % 2 == 0){
